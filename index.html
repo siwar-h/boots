@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Siwar - Travel Agency</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+<link rel="stylesheet" href="style.css"> </head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="images/logo.png" width="30" height="30" class="d-inline-block align-top" alt="">
+        Siwar travel agency
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Destinations</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Tours</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <section class="hero">
+    <img src="images/monastir.webp" alt="Travel Destination" class="img-fluid">
+    <div class="container mt-5 mb-5">
+      <h1>Explore the World</h1>
+      <p>Unforgettable experiences await. Book your dream vacation today!</p>
+      <a href="#" class="btn btn-primary">Explore Destinations</a>
+    </div>
+  </section>
+
+  <section class="destinations">
+    <div class="container mb-5">
+      <h2>Popular Destinations</h2>
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card">
+            <img src="images/djerba.jpg" class="card-img-top" alt="Destination 1">
+            <div class="card-body">
+              <h5 class="card-title">Djerba, Tunisia</h5>
+              <p class="card-text">Discover the fine sandy beaches, whitewashed villages, and rich culture of this Mediterranean island.</p>
+              <a href="#" class="btn btn-sm btn-primary">Learn More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="images/tozeur.jpg" class="card-img-top" alt="Destination 2">
+            <div class="card-body">
+              <h5 class="card-title">Tozeur, Tunisia</h5>
+              <p class="card-text">Explore the lush oases, Berber villages, and desert landscapes of southern Tunisia.</p>
+              <a href="#" class="btn btn-sm btn-primary">Learn More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="images/el jam.jpg" class="card-img-top" alt="Destination 3">
+            <div class="card-body">
+              <h5 class="card-title">El Jem, Tunisia</h5>
+              <p class="card-text">Admire the Roman amphitheater, one of the largest and best preserved in the world.</p>
+              <a href="#" class="btn btn-sm btn-primary">Learn More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </section>
+        <section class="tours">
+          <div class="container mb-5">
+            <h2>Explore Our Tour Packages</h2>
+            <div class="accordion" id="toursAccordion">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                    Adventure in the Desert
+                  </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#toursAccordion">
+                  <div class="accordion-body">
+                    <p>Embark on a thrilling journey through the Sahara Desert. Explore ancient ruins, ride camels across sand dunes, and experience the magic of stargazing under a clear night sky.</p>
+                    <a href="#" class="btn btn-sm btn-outline-primary">View Details</a>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    Cultural Delights of Tunisia
+                  </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#toursAccordion">
+                  <div class="accordion-body">
+                    <p>Immerse yourself in the rich culture of Tunisia. Visit historic cities, explore bustling souks, and discover the traditional way of life. This tour is a feast for the senses.</p>
+                    <a href="#" class="btn btn-sm btn-outline-primary">View Details</a>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    Relaxation by the Mediterranean
+                  </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#toursAccordion">
+                  <div class="accordion-body">
+                    <p>Unwind on the beautiful beaches of Tunisia. Enjoy crystal-clear waters, soak up the sun, and indulge in delicious seafood. This tour is perfect for a relaxing getaway.</p>
+                    <a href="#" class="btn btn-sm btn-outline-primary">View Details</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section> 
+        <section class="contact">
+          <div class="container mb-5">
+            <h2>Contact Us</h2>
+            <form>
+              <div class="mb-3">
+                <label for="name" class="form-label">Name</label>
+                <input type="text" class="form-control" id="name" required>
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">Email Address</label>
+                <input type="email" class="form-control" id="email" required>
+              </div>
+              <div class="mb-3">
+                <label for="destination" class="form-label">Destination of Interest</label>
+                <select class="form-select" id="destination">
+                  <option selected>Select a Destination</option>
+                  <option value="djerba">Djerba</option>
+                  <option value="tozeur">Tozeur</option>
+                  <option value="el_jem">El Jem</option>
+                  <option value="other">Other</option>
+                </select>
+              </div>
+              <div class="mb-3">
+                <label for="message" class="form-label">Message</label>
+                <textarea class="form-control" id="message" rows="3" required></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">Send Inquiry</button>
+            </form>
+          </div>
+        </section>      
+        <footer>
+          <div class="container">
+            <p class="text-center">&copy; 2024 Siwar travel agency. All Rights Reserved.</p>
+            <ul class="list-unstyled d-flex justify-content-center mb-0">
+              <li><a href="#"><svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-brand-facebook"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3" /></svg></a></li>
+              <li><a href="#"><svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-brand-instagram"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M4 4m0 4a4 4 0 0 1 4 -4h8a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-8a4 4 0 0 1 -4 -4z" /><path d="M12 12m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" /><path d="M16.5 7.5l0 .01" /></svg></a></li>
+              <li><a href="#"><svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-brand-whatsapp"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M3 21l1.65 -3.8a9 9 0 1 1 3.4 2.9l-5.05 .9" /><path d="M9 10a.5 .5 0 0 0 1 0v-1a.5 .5 0 0 0 -1 0v1a5 5 0 0 0 5 5h1a.5 .5 0 0 0 0 -1h-1a.5 .5 0 0 0 0 1" /></svg></a></li>
+            </ul>
+          </div>
+        </footer>
+      </body>
+      </html>
